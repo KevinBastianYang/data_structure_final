@@ -1,0 +1,99 @@
+ShortReadMapping Result:
+  Explanation:
+    The Mapping sequence in the long sequence and the short sequence will be shown below
+    And the position information is shown as <--start    end-->
+    Other information includes the mapping score
+<---------------------------------------------------------------------------------------------->
+Results:
+score:17
+longseq : <--670            688-->
+          --GCCCGGACAGTGGGTCAGTT-
+shortseq: <--29            48-->
+          GCCCGGA-CA-GGGGTCAGTGGG
+
+
+score:17
+longseq : <--680            698-->
+          --CGTCAATGCCCCCGGACAGC-
+shortseq: <--39            58-->
+          CGTCAATG--CCCCGGACAGCCC
+
+
+score:17
+longseq : <--690            708-->
+          --GCGCTGATCTGTCAATGCCG-
+shortseq: <--49            68-->
+          GCGCTGATC--TTCAATGCCGTC
+
+
+score:17
+longseq : <--700            718-->
+          --GCCGCGGCGACGCTGATCTC-
+shortseq: <--59            78-->
+          GCCGCGGC--GAGCTGATCTGGC
+
+
+score:17
+longseq : <--710            728-->
+          --AAAGCTCTCCCCGCGGCGAC-
+shortseq: <--69            88-->
+          AAAGCTCTC--CCGCGGCGAACG
+
+
+score:17
+longseq : <--720            738-->
+          --ATCGCCATCAAAGCTCTCCA-
+shortseq: <--79            98-->
+          ATCGCCATC--AAGCTCTCCAAG
+
+
+score:17
+longseq : <--730            748-->
+          --TGGCGGGTCTTCGCCATCAT-
+shortseq: <--89            108-->
+          TGGCGGGTC--TCGCCATCATCG
+
+
+score:17
+longseq : <--740            758-->
+          --GCTGGAAGCCGGCGGGTCTG-
+shortseq: <--99            118-->
+          GCTGGAAGC--CGCGGGTCTGGC
+
+
+score:17
+longseq : <--750            768-->
+          --CGTGGACATACTGGAAGCCC-
+shortseq: <--109            128-->
+          CGTGGACAT--ATGGAAGCCCTG
+
+
+score:17
+longseq : <--760            778-->
+          --AAGTCAGTGTGTGGACATAG-
+shortseq: <--119            138-->
+          AAGTCAG-T-GTTGGACATAATG
+
+
+score:17
+longseq : <--770            788-->
+          --CATTAACCCGAGTCAGTGTA-
+shortseq: <--129            148-->
+          CATTAACCC--GGTCAGTGTCGT
+
+
+score:17
+longseq : <--780            798-->
+          -GTCGAAAAACATTAACCCGA-
+shortseq: <--139            158-->
+          GTCGAAAAA-CTTAACCCGGTT
+
+
+score:17
+longseq : <--790            808-->
+          --TGCTCGCCGTTCGAAAAACT-
+shortseq: <--149            168-->
+          TGCTCGCCG--TCGAAAAACTCG
+
+
+<---------------------------------------------------------------------------------------------->
