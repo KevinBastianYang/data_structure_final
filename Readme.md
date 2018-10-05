@@ -1,4 +1,46 @@
-﻿【A.基本信息】
+﻿SRM
+============
+SRM(Short Read Mapping) is a software designed to align short sequences back to the genome reference, returning the mapping sequences, position and the mapping score.
+
+Getting started
+--------------
+### Compile the software
+```shell
+cd project
+g++ main_ShortReadMapping.cpp -o main_ShortReadMapping
+./main_ShortReadMapping
+```
+### Input the reference genome file as requested
+* reference example: project/1.fna is part of the complete genome of Klebsiella pneumoniae
+
+### Input the short query sequences as requested
+* query example: project/2.fna is certain short sequences of Klebsiella pneumoniae
+
+### Choose the Smith-Waterman penalty score
+Three choices: -5, -10, -15
+
+### Run the program
+The output will be SRM.txt under the same directory, including the matched sequences, position, and the mapping score.
+
+Data structures and Algorithms
+----------------
+* Single linked list: seedStorage is single linked list used to store seed
+
+* Stack: Used to trace back in Smith-Waterman alignment
+
+* KMP algorithm: Used to accurately map the seed. Time complexity: O(m+n)
+
+* Dynamic programming: Used in Smith-Waterman algorithm
+
+* Smith-Waterman algorithm: Dynamic optimal local alignment 
+
+* Selection sort: Used in linking the prolonged seeds. Merits are less consuming of space and simple.
+
+* Disjoint Sets: Used in linking the prolonged seeds.
+
+
+
+【A.基本信息】
 程序名称：ShortReadMapping
 开发人员：生物信息与统计系—— 魏杨蓁 郑光辉 杨俊晨 夏云天 王如凡
 程序功能：在长序列中寻找与给定短序列匹配（mapping)的局部片段及位置，并给出Smith-Waterman相似性得分
